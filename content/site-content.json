@@ -1,0 +1,240 @@
+{
+  "institute": {
+    "name": "Innovex Modern Institute",
+    "shortName": "Innovex Modern",
+    "tagline": "Empowering Minds Through Academic Excellence & Practical Skills",
+    "city": "Kolkata, West Bengal",
+    "establishedNote": "Academic, Research & Career Guidance Centre",
+    "phones": ["7076236327", "9874766898"],
+    "email": "innovexmoderninstitute@gmail.com",
+    "address": "41, Prafulla Nagar Road, Dumdum, Kolkata – 700074, West Bengal",
+    "officeHours": "Monday – Saturday, 10:00 AM – 6:30 PM"
+  },
+  "home": {
+    "heroBadge": "Admissions & Academic Guidance Open",
+    "heroTitle": "Shape Your Academic & Professional Future in Kolkata",
+    "heroSubtitle": "Innovex Modern Institute offers structured career-oriented programs, research mentorship, competitive exam guidance, and dedicated student support under one roof.",
+    "primaryCta": "Apply Now",
+    "secondaryCta": "Explore Courses",
+    "strengthsTitle": "Why Choose Innovex Modern Institute",
+    "strengthsSubtitle": "A focused academic ecosystem combining classroom clarity, research mentorship, and career readiness.",
+    "strengths": [
+      {
+        "title": "Structured Academic Pathways",
+        "description": "Guided pathways across Certificate, Diploma, Undergraduate, Postgraduate, PG Diploma, and Doctoral programs."
+      },
+      {
+        "title": "Research & Publication Mentorship",
+        "description": "Dedicated support for journal publications, book chapters, patent filing assistance, and thesis preparation."
+      },
+      {
+        "title": "Competitive & Career Preparation",
+        "description": "Targeted online academic support for Bank PO, CAT, MAT, JECA, JEEMAT, and teaching-placement readiness."
+      },
+      {
+        "title": "Student Financial Guidance",
+        "description": "Clear information and documentation checklists for educational loans, scholarships, and Student Credit Card schemes."
+      }
+    ]
+  },
+  "about": {
+    "introTitle": "About Innovex Modern Institute",
+    "introText": "Located in Dumdum, Kolkata, Innovex Modern Institute is dedicated to accessible, structured, and quality higher education and skill development. We support learners from foundational certificates to advanced research and competitive career preparation.",
+    "vision": "To cultivate confident, skilled, and ethically grounded learners equipped for modern academic and professional landscapes.",
+    "mission": "To deliver clear academic guidance, practical skill development, research mentorship, and transparent student support services.",
+    "values": [
+      { "title": "Academic Integrity", "description": "Honest guidance, verified information, and disciplined scholarly standards." },
+      { "title": "Skill Orientation", "description": "Bridging theoretical foundations with practical workplace and research competencies." },
+      { "title": "Student-First Support", "description": "Accessible mentorship from admission enquiry through training and placement readiness." }
+    ],
+    "approachTitle": "Quality Education & Skill-Development Approach",
+    "approachText": "Our academic model blends conceptual clarity with structured mentorship. Whether a student is pursuing a degree, preparing for national or state-level entrance exams, or drafting a research thesis, we emphasize step-by-step progress and personal guidance.",
+    "recognitionSummary": "Verified registration, affiliation, and statutory approval details will be published here once final client documentation is supplied."
+  },
+  "coursesPage": {
+    "subtitle": "Browse our six academic and skill-development categories. Final program details will be updated from verified institute records.",
+    "categories": [
+      "Certificate Courses",
+      "Diploma Courses",
+      "UG Courses",
+      "PG Courses",
+      "PG Diploma Courses",
+      "PhD Courses"
+    ],
+    "items": [
+      {
+        "category": "Certificate Courses",
+        "name": "Certificate Program (Details Pending)",
+        "duration": "3 – 6 Months (Indicative)",
+        "eligibility": "10th / 12th Pass (As Applicable)",
+        "mode": "Offline / Online",
+        "description": "Short-term skill-focused certificate program designed for rapid practical upskilling. Final syllabus and title awaiting client confirmation."
+      },
+      {
+        "category": "Diploma Courses",
+        "name": "Diploma Program (Details Pending)",
+        "duration": "1 – 2 Years (Indicative)",
+        "eligibility": "10th / 10+2 Equivalent",
+        "mode": "Offline / Hybrid",
+        "description": "Foundational technical and professional diploma curriculum emphasizing applied competencies. Final course details to be updated."
+      },
+      {
+        "category": "UG Courses",
+        "name": "Undergraduate Program (Details Pending)",
+        "duration": "3 – 4 Years (Indicative)",
+        "eligibility": "10+2 from Recognized Board",
+        "mode": "Regular / Guided",
+        "description": "Comprehensive undergraduate academic pathway building core disciplinary knowledge and career readiness."
+      },
+      {
+        "category": "PG Courses",
+        "name": "Postgraduate Program (Details Pending)",
+        "duration": "2 Years (Indicative)",
+        "eligibility": "Graduation in Relevant Stream",
+        "mode": "Regular / Guided",
+        "description": "Advanced postgraduate study focused on specialization, analytical depth, and professional or research progression."
+      },
+      {
+        "category": "PG Diploma Courses",
+        "name": "Post Graduate Diploma (Details Pending)",
+        "duration": "1 Year (Indicative)",
+        "eligibility": "Graduate in Any / Relevant Discipline",
+        "mode": "Offline / Online",
+        "description": "Focused postgraduate specialization bridging academic degrees with industry and management requirements."
+      },
+      {
+        "category": "PhD Courses",
+        "name": "Doctoral Research Guidance (Details Pending)",
+        "duration": "As per University Norms",
+        "eligibility": "Postgraduate Degree with Qualifying Criteria",
+        "mode": "Research Mentorship",
+        "description": "Structured doctoral guidance covering research methodology, proposal framing, and academic publication readiness."
+      }
+    ]
+  },
+  "research": {
+    "subtitle": "End-to-end scholarly guidance for researchers, faculty members, and postgraduate scholars.",
+    "services": [
+      {
+        "title": "Publishing Support (Journals & Books)",
+        "description": "Guidance on manuscript structuring, journal selection, formatting standards, peer-review response preparation, and edited book chapter submissions."
+      },
+      {
+        "title": "Patent Assistance",
+        "description": "Support with prior-art search orientation, technical documentation structuring, and procedural guidance for innovation and patent filing."
+      },
+      {
+        "title": "Thesis Writing Support",
+        "description": "Mentorship on topic refinement, literature review organization, research methodology, citation accuracy, and final thesis presentation."
+      }
+    ],
+    "ctaTitle": "Need Guidance for Your Research Work?",
+    "ctaText": "Reach out to our academic team to discuss your publication, patent, or thesis requirements."
+  },
+  "academicSupport": {
+    "subtitle": "Structured online mentorship for university learners and competitive examination aspirants.",
+    "tracks": [
+      {
+        "title": "UG & PG Academic Guidance",
+        "description": "Concept-building sessions, assignment clarity, semester exam preparation, and subject-wise doubt resolution for undergraduate and postgraduate students."
+      },
+      {
+        "title": "Bank PO Preparation",
+        "description": "Focused quantitative aptitude, reasoning ability, English language, and banking awareness preparation with structured practice sets."
+      },
+      {
+        "title": "Teaching & Placement Support",
+        "description": "Pedagogical orientation, interview readiness, communication skills, and career preparation for aspiring educators and graduates."
+      },
+      {
+        "title": "CAT, MAT, JECA & JEEMAT Guidance",
+        "description": "Targeted entrance exam coaching covering core syllabus areas, time-management strategies, and mock-test analysis."
+      }
+    ]
+  },
+  "notices": [
+    {
+      "title": "Academic Enquiry & Counselling Desk Open",
+      "date": "Current Session",
+      "description": "Students seeking guidance on Certificate, Diploma, UG, PG, PG Diploma, or PhD pathways may visit the Dumdum campus or submit an enquiry.",
+      "linkLabel": "Enquire Now",
+      "linkUrl": "/apply"
+    },
+    {
+      "title": "Online Academic Support Batches",
+      "date": "Upcoming Schedule",
+      "description": "Guidance batches for UG/PG subjects, Bank PO, CAT, MAT, JECA, and JEEMAT are being organized. Contact the office for batch timings.",
+      "linkLabel": "Contact Office",
+      "linkUrl": "/contact"
+    },
+    {
+      "title": "Student Credit Card & Scholarship Desk",
+      "date": "Information Notice",
+      "description": "Preliminary checklist and eligibility guidance for educational loans and Student Credit Card support is available at the student helpdesk.",
+      "linkLabel": "View Facilities",
+      "linkUrl": "/facilities"
+    }
+  ],
+  "facilities": {
+    "subtitle": "Financial awareness and documentation guidance to help eligible students pursue uninterrupted education.",
+    "items": [
+      {
+        "title": "Educational Loan Information",
+        "description": "Guidance on understanding bank educational loan workflows, fee-structure letters, and standard documentation requirements.",
+        "checklist": [
+          "Admission / course fee estimate letter",
+          "Academic mark sheets and identity proof",
+          "Co-applicant income and KYC documents (as per bank norms)"
+        ]
+      },
+      {
+        "title": "Scholarship Information",
+        "description": "Information support to help students track applicable state, central, and merit-based scholarship portals and timelines.",
+        "checklist": [
+          "Previous qualifying examination mark sheets",
+          "Active bank account & Aadhaar-linked details",
+          "Income / category certificate (where applicable)"
+        ]
+      },
+      {
+        "title": "Student Credit Card Information",
+        "description": "Orientation on eligibility criteria and required academic records for government-backed Student Credit Card schemes.",
+        "checklist": [
+          "Proof of admission in an eligible course",
+          "Residence and age eligibility records",
+          "Institution and course verification details"
+        ]
+      }
+    ]
+  },
+  "trainingPlacement": {
+    "subtitle": "Static overview of our skill-building and career-readiness support. Client-verified placement records will be added when supplied.",
+    "trainingTitle": "Training Process Overview",
+    "trainingSteps": [
+      {
+        "title": "1. Skill Assessment & Orientation",
+        "description": "Identifying academic strengths, communication needs, and career goals at the start of training."
+      },
+      {
+        "title": "2. Domain & Soft-Skill Workshops",
+        "description": "Practical modules covering workplace communication, resume structuring, and technical fundamentals."
+      },
+      {
+        "title": "3. Mock Interviews & Readiness Review",
+        "description": "Structured practice interviews and feedback sessions to build confidence before employer interactions."
+      }
+    ],
+    "placementTitle": "Placement Assistance Overview",
+    "placementText": "Innovex Modern Institute provides career counselling, interview preparation, and placement assistance aligned with student qualifications. Verified recruiter lists and placement statistics will be published here once supplied by the institute."
+  },
+  "recognition": {
+    "subtitle": "Official registration, affiliation, and approval records will be displayed here strictly after verified client documents are received.",
+    "noticeTitle": "Verification in Progress",
+    "noticeText": "In accordance with our commitment to accuracy and transparency, no unverified registration numbers, affiliations, or approval certificates are displayed. Verified details will be added in Phase 4.",
+    "placeholders": [
+      { "label": "Institute Registration Details", "status": "Pending Verified Client Document" },
+      { "label": "Academic Affiliation / Recognition", "status": "Pending Verified Client Document" },
+      { "label": "Approval Certificates", "status": "Pending Verified Client Document" }
+    ]
+  }
+}

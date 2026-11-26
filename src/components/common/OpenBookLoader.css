@@ -1,0 +1,123 @@
+/* Modern 3D open-book loader: deep navy background, navy cover, ivory pages with gold edges */
+.book-loader-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: radial-gradient(circle at center, #102547 0%, #0a1628 65%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.45s ease, visibility 0.45s ease;
+}
+
+.book-loader-overlay.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.open-book-scene {
+  perspective: 1200px;
+}
+
+.open-book {
+  position: relative;
+  width: 176px;
+  height: 118px;
+  transform: rotateX(18deg);
+  transform-style: preserve-3d;
+}
+
+.book-cover {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #16315c 0%, #0e2140 100%);
+  border: 1.5px solid #c59b27;
+  border-radius: 8px;
+  box-shadow:
+    0 22px 45px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(212, 175, 55, 0.28);
+}
+
+.book-spine-crease {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 50%;
+  width: 12px;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    90deg,
+    rgba(10, 22, 40, 0) 0%,
+    rgba(10, 22, 40, 0.35) 50%,
+    rgba(10, 22, 40, 0) 100%
+  );
+  z-index: 8;
+  pointer-events: none;
+}
+
+.book-page-stack {
+  position: absolute;
+  top: 7px;
+  bottom: 9px;
+  width: calc(50% - 8px);
+  background: linear-gradient(90deg, #f3ede0 0%, #faf6ee 18%, #faf6ee 100%);
+  border: 1px solid rgba(212, 175, 55, 0.65);
+  box-shadow: 0 3px 0 #e6dcc8, 0 5px 0 #d9ceb6;
+}
+
+.book-page-stack-left {
+  left: 7px;
+  border-radius: 4px 1px 1px 4px;
+  background: linear-gradient(90deg, #faf6ee 0%, #faf6ee 82%, #ebe3d3 100%);
+}
+
+.book-page-stack-right {
+  right: 7px;
+  border-radius: 1px 4px 4px 1px;
+}
+
+.book-turning-page {
+  position: absolute;
+  top: 7px;
+  bottom: 9px;
+  right: 7px;
+  width: calc(50% - 8px);
+  border-radius: 1px 4px 4px 1px;
+  border: 1px solid rgba(212, 175, 55, 0.72);
+  background: linear-gradient(90deg, #efe7d6 0%, #faf6ee 18%, #fffdf8 100%);
+  transform-origin: left center;
+  transform-style: preserve-3d;
+  animation: modernPageTurn 1.8s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+  z-index: 6;
+}
+
+.book-turning-page-2 {
+  animation-delay: 0.6s;
+}
+
+.book-turning-page-3 {
+  animation-delay: 1.2s;
+}
+
+@keyframes modernPageTurn {
+  0% {
+    transform: rotateY(0deg);
+    opacity: 0;
+  }
+  12% {
+    opacity: 1;
+  }
+  50% {
+    transform: rotateY(-95deg);
+    filter: brightness(0.96);
+  }
+  88% {
+    transform: rotateY(-178deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateY(-180deg);
+    opacity: 0;
+  }
+}
