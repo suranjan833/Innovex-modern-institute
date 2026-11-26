@@ -209,6 +209,8 @@
   background-color: #fcf9f2;
   border-top: 1px solid #e6e0d4;
   gap: 0.35rem;
+  max-height: calc(100vh - 78px);
+  overflow-y: auto;
 }
 
 .mobile-drawer.open {

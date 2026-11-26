@@ -16,6 +16,7 @@ body {
   color: var(--slate-text);
   background-color: var(--ivory);
   line-height: 1.65;
+  overflow-x: clip;
   -webkit-font-smoothing: antialiased;
 }
 

@@ -8,7 +8,7 @@ import CtaBanner from '../components/common/CtaBanner';
 const STEP_ICONS = [ClipboardCheck, Briefcase, MessageSquare];
 
 export default function TrainingPlacementPage() {
-  const { trainingPlacement } = useSiteContent();
+  const { trainingPlacement, images } = useSiteContent();
 
   return (
     <>
@@ -20,8 +20,21 @@ export default function TrainingPlacementPage() {
 
       <section className="section section-white">
         <div className="container">
+          <div className="split-feature">
+            <div>
+              <SectionHeading title={trainingPlacement.placementTitle} />
+              <p>{trainingPlacement.placementText}</p>
+            </div>
+            <div className="feature-photo">
+              <img
+                src={images.careerPlacement}
+                alt="Career guidance and placement preparation session"
+              />
+            </div>
+          </div>
+
           <SectionHeading title={trainingPlacement.trainingTitle} />
-          <div className="grid-3" style={{ marginBottom: '3rem' }}>
+          <div className="grid-3" style={{ marginBottom: '2.5rem' }}>
             {trainingPlacement.trainingSteps.map((step, idx) => (
               <InfoCard
                 key={step.title}
@@ -31,11 +44,6 @@ export default function TrainingPlacementPage() {
               />
             ))}
           </div>
-
-          <SectionHeading title={trainingPlacement.placementTitle} />
-          <p style={{ maxWidth: '780px', marginBottom: '2rem' }}>
-            {trainingPlacement.placementText}
-          </p>
 
           <CtaBanner
             title="Interested in Career & Placement Guidance?"

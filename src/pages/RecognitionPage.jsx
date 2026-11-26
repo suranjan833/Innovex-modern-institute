@@ -1,4 +1,4 @@
-import { ShieldAlert, FileText } from 'lucide-react';
+import { ShieldCheck, FileText } from 'lucide-react';
 import { useSiteContent } from '../data/useSiteContent';
 import PageHeader from '../components/common/PageHeader';
 import SectionHeading from '../components/common/SectionHeading';
@@ -26,7 +26,7 @@ export default function RecognitionPage() {
             }}
           >
             <div style={{ display: 'flex', gap: '0.85rem', alignItems: 'flex-start' }}>
-              <ShieldAlert size={24} style={{ color: '#8a6914', flexShrink: 0, marginTop: '2px' }} />
+              <ShieldCheck size={24} style={{ color: '#8a6914', flexShrink: 0, marginTop: '2px' }} />
               <div>
                 <h3>{recognition.noticeTitle}</h3>
                 <p style={{ marginBottom: 0 }}>{recognition.noticeText}</p>
@@ -35,18 +35,18 @@ export default function RecognitionPage() {
           </div>
 
           <SectionHeading
-            title="Document Status"
-            subtitle="Static placeholders awaiting verified client-supplied certificates and registration text."
+            title="Registration & Quality Records"
+            subtitle="Client-verified registration numbers and quality management standards."
           />
 
           <div className="grid-3">
-            {recognition.placeholders.map((item) => (
+            {recognition.records.map((item) => (
               <InfoCard
                 key={item.label}
                 icon={FileText}
                 badge={item.status}
                 title={item.label}
-                description="Verified registration numbers and official document scans will appear here once provided by the institute."
+                description={item.value}
               />
             ))}
           </div>

@@ -5,6 +5,9 @@ import {
   Award,
   BookOpen,
   Briefcase,
+  Laptop,
+  Lightbulb,
+  Users,
   Phone,
   Mail,
   MapPin,
@@ -15,51 +18,50 @@ import InfoCard from '../components/common/InfoCard';
 import NoticeCard from '../components/common/NoticeCard';
 import CtaBanner from '../components/common/CtaBanner';
 
-const STRENGTH_ICONS = [GraduationCap, BookOpen, Briefcase, Award];
+const STRENGTH_ICONS = [Award, Users, Lightbulb, GraduationCap];
+const SERVICE_ICONS = [
+  BookOpen,
+  GraduationCap,
+  Briefcase,
+  Award,
+  Users,
+  BookOpen,
+  Laptop,
+  Laptop,
+  Briefcase,
+  GraduationCap,
+];
 
 export default function HomePage() {
-  const { institute, home, coursesPage, notices, facilities } = useSiteContent();
+  const { institute, images, home, coursesPage, notices, facilities } = useSiteContent();
 
   return (
     <>
-      <section
-        style={{
-          background:
-            'linear-gradient(135deg, var(--navy-deep) 0%, var(--navy-primary) 62%, var(--royal-blue) 100%)',
-          color: 'var(--white)',
-          padding: '4.75rem 0',
-          borderBottom: '4px solid var(--gold-primary)',
-        }}
-      >
-        <div className="container">
-          <span className="badge badge-gold">{home.heroBadge}</span>
-          <h1
-            style={{
-              color: 'var(--white)',
-              fontSize: 'clamp(2rem, 4vw, 3.1rem)',
-              maxWidth: '780px',
-              marginTop: '1rem',
-            }}
-          >
-            {home.heroTitle}
-          </h1>
-          <p
-            style={{
-              color: 'rgba(255,255,255,0.88)',
-              fontSize: '1.08rem',
-              maxWidth: '660px',
-              marginBottom: '2rem',
-            }}
-          >
-            {home.heroSubtitle}
-          </p>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.9rem' }}>
-            <Link to="/apply" className="btn btn-primary">
-              {home.primaryCta} <ArrowRight size={17} />
-            </Link>
-            <Link to="/courses" className="btn btn-outline-light">
-              {home.secondaryCta}
-            </Link>
+      <section className="hero-section">
+        <div className="container hero-grid">
+          <div>
+            <span className="badge badge-gold">{home.heroBadge}</span>
+            <div className="hero-motto">{institute.motto}</div>
+            <h1 className="hero-title">{home.heroTitle}</h1>
+            <p className="hero-subtitle">{home.heroSubtitle}</p>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.9rem' }}>
+              <Link to="/apply" className="btn btn-primary">
+                {home.primaryCta} <ArrowRight size={17} />
+              </Link>
+              <Link to="/courses" className="btn btn-outline-light">
+                {home.secondaryCta}
+              </Link>
+            </div>
+          </div>
+
+          <div className="hero-image-frame">
+            <img
+              src={images.heroCampus}
+              alt="Students studying at Innovex Modern Institute, Kolkata"
+            />
+            <div className="hero-image-caption">
+              {institute.name} • {institute.city}
+            </div>
           </div>
         </div>
       </section>
@@ -80,11 +82,7 @@ export default function HomePage() {
               >
                 <Link
                   to={`/courses?category=${encodeURIComponent(category)}`}
-                  style={{
-                    fontWeight: 600,
-                    color: 'var(--royal-blue)',
-                    fontSize: '0.9rem',
-                  }}
+                  style={{ fontWeight: 600, color: 'var(--royal-blue)', fontSize: '0.9rem' }}
                 >
                   View Category &rarr;
                 </Link>
@@ -95,6 +93,32 @@ export default function HomePage() {
       </section>
 
       <section className="section section-ivory">
+        <div className="container">
+          <SectionHeading
+            title={home.servicesTitle}
+            subtitle={home.servicesSubtitle}
+            centered
+          />
+          <div className="services-grid">
+            {home.services.map((service, idx) => {
+              const Icon = SERVICE_ICONS[idx % SERVICE_ICONS.length];
+              return (
+                <div key={service.title} className="service-item">
+                  <div className="service-item-icon">
+                    <Icon size={20} />
+                  </div>
+                  <div>
+                    <h3>{service.title}</h3>
+                    <p>{service.description}</p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-white">
         <div className="container">
           <SectionHeading
             title={home.strengthsTitle}
@@ -114,7 +138,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section section-white">
+      <section className="section section-ivory">
         <div className="container">
           <SectionHeading
             title="Latest Notices"
@@ -128,7 +152,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section section-ivory">
+      <section className="section section-white">
         <div className="container">
           <SectionHeading
             title="Student Facilities Preview"
@@ -144,11 +168,7 @@ export default function HomePage() {
               >
                 <Link
                   to="/facilities"
-                  style={{
-                    fontWeight: 600,
-                    color: 'var(--royal-blue)',
-                    fontSize: '0.9rem',
-                  }}
+                  style={{ fontWeight: 600, color: 'var(--royal-blue)', fontSize: '0.9rem' }}
                 >
                   View Checklist &rarr;
                 </Link>
@@ -158,28 +178,16 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section section-white">
+      <section className="section section-ivory">
         <div className="container">
           <div className="grid-3" style={{ marginBottom: '2.5rem' }}>
-            <InfoCard
-              icon={Phone}
-              title="Call Us"
-              description={institute.phones.join(' / ')}
-            />
-            <InfoCard
-              icon={Mail}
-              title="Email Us"
-              description={institute.email}
-            />
-            <InfoCard
-              icon={MapPin}
-              title="Campus Location"
-              description={institute.address}
-            />
+            <InfoCard icon={Phone} title="Call Us" description={institute.phones.join(' / ')} />
+            <InfoCard icon={Mail} title="Email Us" description={institute.email} />
+            <InfoCard icon={MapPin} title="Campus Location" description={institute.address} />
           </div>
           <CtaBanner
-            title="Ready to Start Your Academic Journey?"
-            text="Submit an admission enquiry or visit our Dumdum, Kolkata campus for personal guidance."
+            title={institute.ctaTagline}
+            text="Submit an admission enquiry or visit our Dum Dum, Kolkata campus for personal academic counselling."
             buttonLabel="Apply Now"
             to="/apply"
           />
