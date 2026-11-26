@@ -12,7 +12,21 @@ export default function Footer() {
       <div className="container">
         <div className="grid-4">
           <div>
-            <h4>{institute.name}</h4>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.85rem' }}>
+              <img
+                src="/logo.jpg"
+                alt={`${institute.name} Logo`}
+                style={{
+                  width: '48px',
+                  height: '48px',
+                  borderRadius: '50%',
+                  objectFit: 'cover',
+                  border: '1.5px solid #c59b27',
+                  flexShrink: 0,
+                }}
+              />
+              <h4 style={{ marginBottom: 0 }}>{institute.name}</h4>
+            </div>
             <p style={{ fontSize: '0.9rem', lineHeight: 1.6 }}>{institute.tagline}</p>
             <p style={{ fontSize: '0.84rem', color: 'rgba(255,255,255,0.65)' }}>
               {institute.officeHours}

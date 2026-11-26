@@ -26,17 +26,13 @@
   flex-shrink: 0;
 }
 
-.brand-crest {
-  width: 44px;
-  height: 44px;
-  border-radius: 10px;
-  background: linear-gradient(145deg, #071940, #0d2b6b);
-  color: var(--gold-bright);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.brand-logo-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
   border: 1.5px solid #c59b27;
-  box-shadow: 0 2px 8px rgba(10, 22, 40, 0.16);
+  box-shadow: 0 2px 8px rgba(10, 22, 40, 0.14);
   flex-shrink: 0;
 }
 

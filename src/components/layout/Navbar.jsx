@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { BookOpen, ChevronDown, Menu, X } from 'lucide-react';
+import { ChevronDown, Menu, X } from 'lucide-react';
 import { useSiteContent } from '../../data/useSiteContent';
 import './Navbar.css';
 
@@ -56,9 +56,11 @@ export default function Navbar() {
     <header className="navbar">
       <div className="container navbar-inner">
         <Link to="/" className="brand-link" onClick={() => setMenuOpen(false)}>
-          <div className="brand-crest" aria-hidden="true">
-            <BookOpen size={21} />
-          </div>
+          <img
+            src="/logo.jpg"
+            alt={`${institute.name} Logo`}
+            className="brand-logo-img"
+          />
           <div className="brand-divider" aria-hidden="true" />
           <div className="brand-text-group">
             <div className="brand-title">{institute.name}</div>
