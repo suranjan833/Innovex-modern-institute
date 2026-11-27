@@ -3,12 +3,13 @@ import { useSiteContent } from '../data/useSiteContent';
 import PageHeader from '../components/common/PageHeader';
 import SectionHeading from '../components/common/SectionHeading';
 import InfoCard from '../components/common/InfoCard';
+import LeadershipMessageCard from '../components/common/LeadershipMessageCard';
 import CtaBanner from '../components/common/CtaBanner';
 
 const STEP_ICONS = [ClipboardCheck, Briefcase, MessageSquare];
 
 export default function TrainingPlacementPage() {
-  const { trainingPlacement, images } = useSiteContent();
+  const { trainingPlacement, images, leadershipMessages } = useSiteContent();
 
   return (
     <>
@@ -43,6 +44,10 @@ export default function TrainingPlacementPage() {
                 description={step.description}
               />
             ))}
+          </div>
+
+          <div style={{ marginBottom: '2.5rem' }}>
+            <LeadershipMessageCard item={leadershipMessages.tnpHead} />
           </div>
 
           <CtaBanner

@@ -3,10 +3,11 @@ import { useSiteContent } from '../data/useSiteContent';
 import PageHeader from '../components/common/PageHeader';
 import SectionHeading from '../components/common/SectionHeading';
 import InfoCard from '../components/common/InfoCard';
+import LeadershipMessageCard from '../components/common/LeadershipMessageCard';
 import CtaBanner from '../components/common/CtaBanner';
 
 export default function AboutPage() {
-  const { about, institute, images } = useSiteContent();
+  const { about, institute, images, leadershipMessages } = useSiteContent();
 
   return (
     <>
@@ -103,6 +104,20 @@ export default function AboutPage() {
                 {about.commitmentParagraphs[1]}
               </p>
             </InfoCard>
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-ivory">
+        <div className="container">
+          <SectionHeading
+            title="Leadership Messages"
+            subtitle="Words of guidance and vision from our academic leadership."
+            centered
+          />
+          <div style={{ display: 'grid', gap: '1.5rem' }}>
+            <LeadershipMessageCard item={leadershipMessages.chairman} />
+            <LeadershipMessageCard item={leadershipMessages.principal} />
           </div>
         </div>
       </section>

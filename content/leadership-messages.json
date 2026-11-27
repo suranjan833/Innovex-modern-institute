@@ -1,0 +1,41 @@
+{
+  "chairman": {
+    "heading": "Message from the Chairman",
+    "name": "Dr. Ardhendu Singha Roy",
+    "role": "Chairman",
+    "institute": "Innovex Modern Institute",
+    "initials": "ASR",
+    "motto": "Learn, Grow, Excel.",
+    "paragraphs": [
+      "At Innovex Modern Institute, we believe that education is not merely the acquisition of knowledge, but the development of skills, values, confidence, creativity, and the ability to transform challenges into opportunities. In an increasingly competitive and rapidly evolving world, students need more than academic qualifications—they need practical competencies, innovative thinking, professional adaptability, and a lifelong learning mindset.",
+      "Our vision is to create a learning environment that bridges the gap between education and industry by offering quality education, professional training, skill development, career guidance, research support, and technology-driven learning opportunities. We are committed to empowering learners from diverse backgrounds through accessible, affordable, and career-oriented programmes designed to meet the emerging needs of society and the professional world.",
+      "At Innovex Modern Institute, we strive to nurture talent, encourage innovation, promote entrepreneurship, and develop responsible individuals who can contribute meaningfully to economic growth and social development. Through our dedicated faculty, learner-centric approach, practical exposure, and commitment to excellence, we aim to help every learner discover their potential and achieve their aspirations. We welcome students, professionals, aspiring entrepreneurs, and lifelong learners to join us on this journey of knowledge, transformation, and success."
+    ]
+  },
+  "principal": {
+    "heading": "Message from the Principal-in-Charge",
+    "name": "Prof. Priyanka Paul",
+    "role": "Principal-in-Charge",
+    "institute": "Innovex Modern Institute",
+    "initials": "PP",
+    "motto": "Learn, Grow, Excel.",
+    "paragraphs": [
+      "At Innovex Modern Institute, we believe that education is the key to unlocking potential, building confidence, and creating opportunities. Our commitment is to provide quality education, skill-based training, professional guidance, and a learner-centric environment that empowers individuals to excel in their chosen fields.",
+      "We strive to bridge the gap between academic learning and practical application by fostering innovation, creativity, critical thinking, professional competence, and lifelong learning. Through our diverse programmes and dedicated mentorship, we aim to prepare learners to meet the challenges of an evolving professional world with confidence and determination.",
+      "It is our privilege to guide every learner towards personal growth, professional success, and meaningful contribution to society."
+    ]
+  },
+  "tnpHead": {
+    "heading": "Message from the Head of Corporate Relations, Training & Placement (T&P)",
+    "name": "Prof. Dr. Supratik De",
+    "role": "Head of Corporate Relations, Training & Placement (T&P)",
+    "institute": "Innovex Modern Institute",
+    "initials": "SD",
+    "motto": "Learn Today, Lead Tomorrow.",
+    "paragraphs": [
+      "At Innovex Modern Institute, our mission is to bridge the gap between education and employment through industry-oriented training, internships, placement assistance, and career development.",
+      "We prepare students with practical skills, professional competence, and industry exposure across Hospitality, Healthcare, Banking, Financial Services, Corporate Management, IT & ITES, and emerging sectors.",
+      "Through our industry associations and career-focused initiatives, we facilitate training and placement opportunities with reputed organisations, including Vedic Village, The LaLiT Great Eastern, Taj Hotels, Marriott Hotels, Apollo Hospitals, Peerless Hospital, and IILDS, while promoting career opportunities in banking and financial services. Our focus is on developing employability, communication, confidence, professionalism, and workplace readiness to help every learner build a successful career."
+    ]
+  }
+}

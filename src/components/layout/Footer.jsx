@@ -28,7 +28,9 @@ export default function Footer() {
               <h4 style={{ marginBottom: 0 }}>{institute.name}</h4>
             </div>
             <p style={{ fontSize: '0.9rem', lineHeight: 1.6 }}>{institute.tagline}</p>
-            <p style={{ fontSize: '0.84rem', color: 'rgba(255,255,255,0.65)', marginBottom: '0.6rem' }}>
+            <p style={{ fontSize: '0.84rem', color: 'rgba(255,255,255,0.72)', marginBottom: '0.6rem' }}>
+              <strong style={{ color: 'var(--white)' }}>Timings:</strong>
+              <br />
               {institute.officeHours}
             </p>
             <p style={{ fontSize: '0.82rem', color: 'var(--gold-bright)', marginBottom: '0.2rem' }}>

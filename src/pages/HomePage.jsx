@@ -15,6 +15,7 @@ import {
 import { useSiteContent } from '../data/useSiteContent';
 import SectionHeading from '../components/common/SectionHeading';
 import InfoCard from '../components/common/InfoCard';
+import LeadershipMessageCard from '../components/common/LeadershipMessageCard';
 import NoticeCard from '../components/common/NoticeCard';
 import CtaBanner from '../components/common/CtaBanner';
 
@@ -33,7 +34,8 @@ const SERVICE_ICONS = [
 ];
 
 export default function HomePage() {
-  const { institute, images, home, coursesPage, notices, facilities } = useSiteContent();
+  const { institute, images, home, coursesPage, notices, facilities, leadershipMessages } =
+    useSiteContent();
 
   return (
     <>
@@ -141,6 +143,17 @@ export default function HomePage() {
       <section className="section section-ivory">
         <div className="container">
           <SectionHeading
+            title="Message from the Chairman"
+            subtitle="Vision and guidance from the leadership of Innovex Modern Institute."
+            centered
+          />
+          <LeadershipMessageCard item={leadershipMessages.chairman} />
+        </div>
+      </section>
+
+      <section className="section section-white">
+        <div className="container">
+          <SectionHeading
             title="Latest Notices"
             subtitle="Important announcements and academic desk updates."
           />
@@ -152,7 +165,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section section-white">
+      <section className="section section-ivory">
         <div className="container">
           <SectionHeading
             title="Student Facilities Preview"
@@ -178,7 +191,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section section-ivory">
+      <section className="section section-white">
         <div className="container">
           <div className="grid-3" style={{ marginBottom: '2.5rem' }}>
             <InfoCard icon={Phone} title="Call Us" description={institute.phones.join(' / ')} />

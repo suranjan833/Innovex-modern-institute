@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "push": "bash scripts/mera_push.sh"
+    "push": "bash mera_push.sh"
   },
   "dependencies": {
     "lucide-react": "^1.81.0",

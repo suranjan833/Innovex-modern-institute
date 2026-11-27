@@ -1,8 +1,12 @@
 import siteContent from '../../content/site-content.json';
+import leadershipMessages from '../../content/leadership-messages.json';
 
 /**
- * Returns the single editable site content object from content/site-content.json.
+ * Returns the editable site content and leadership messages objects.
  */
 export function useSiteContent() {
-  return siteContent;
+  return {
+    ...siteContent,
+    leadershipMessages,
+  };
 }
