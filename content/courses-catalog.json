@@ -1,0 +1,232 @@
+{
+  "sections": [
+    {
+      "category": "Certificate Courses",
+      "title": "1. Certificate Courses – 3 Months",
+      "duration": "3 Months | Short-Term Skill Development Programmes",
+      "hasMore": true,
+      "items": [
+        { "name": "Certificate in Social Work", "duration": "3 Months" },
+        { "name": "Certificate in Logistics and Supply Chain Management", "duration": "3 Months" },
+        { "name": "Certificate in Retail Marketing and Sales Management", "duration": "3 Months" },
+        { "name": "Certificate in Retail Banking and Financial Services", "duration": "3 Months" },
+        { "name": "Certificate in Pharmaceutical Marketing", "duration": "3 Months" },
+        { "name": "Certificate in Green Energy and Renewable Energy", "duration": "3 Months" },
+        { "name": "Certificate in Business Analytics", "duration": "3 Months" },
+        { "name": "Certificate in Data Analysis Using Excel", "duration": "3 Months" },
+        { "name": "Certificate in Digital Marketing and E-Commerce", "duration": "3 Months" },
+        { "name": "Certificate in Mathematics for Business and Finance", "duration": "3 Months" },
+        { "name": "Certificate in Statistics and Data Interpretation", "duration": "3 Months" },
+        { "name": "Certificate in Economics and Business Environment", "duration": "3 Months" },
+        { "name": "Certificate in Financial Accounting and GST", "duration": "3 Months" },
+        { "name": "Certificate in Research Methodology and Data Analysis", "duration": "3 Months" },
+        { "name": "Certificate in Artificial Intelligence for Business", "duration": "3 Months" },
+        { "name": "Certificate in Sustainability Management and ESG", "duration": "3 Months" },
+        { "name": "Certificate in Banking Operations and Customer Relationship Management", "duration": "3 Months" },
+        { "name": "Certificate in Warehouse Management and Inventory Control", "duration": "3 Months" },
+        { "name": "Certificate in Healthcare Management", "duration": "3 Months" },
+        { "name": "Certificate in Entrepreneurship and Startup Management", "duration": "3 Months" },
+        { "name": "Certificate in Computer Applications and Office Automation", "duration": "3 Months" },
+        { "name": "Certificate in Hotel Management", "duration": "3 Months" },
+        { "name": "Certificate in Front Office Operations", "duration": "3 Months" },
+        { "name": "Certificate in Food and Beverage Management", "duration": "3 Months" },
+        { "name": "Certificate in Medical Record Management", "duration": "3 Months" },
+        { "name": "Certificate in Quality Management", "duration": "3 Months" },
+        { "name": "Certificate in Hospital Billing and Insurance", "duration": "3 Months" },
+        { "name": "Certificate in Digital Banking", "duration": "3 Months" },
+        { "name": "Certificate in Financial Literacy", "duration": "3 Months" },
+        { "name": "Certificate in Women Entrepreneurship", "duration": "3 Months" }
+      ],
+      "modulesTitle": "Certificate Course Modules (Each 3-Month Programme)",
+      "modules": [
+        "Fundamentals of the subject",
+        "Industry-oriented practical training",
+        "Digital tools and software applications",
+        "Communication and employability skills",
+        "Project work / case study",
+        "Assessment and certification"
+      ]
+    },
+    {
+      "category": "Diploma Courses",
+      "title": "2. Diploma Courses",
+      "duration": "1 Year / 2 Years / 3 Years",
+      "hasMore": true,
+      "items": [
+        { "name": "Diploma in Logistics and Supply Chain Management", "duration": "1 Year" },
+        { "name": "Diploma in Event Management", "duration": "1 Year" },
+        { "name": "Diploma in Fire and Safety Management", "duration": "1 Year" },
+        { "name": "Diploma in Hotel Management", "duration": "1 Year" },
+        { "name": "Diploma in Hospital Management", "duration": "1 Year" },
+        { "name": "Diploma in Hotel Finance Management", "duration": "1 Year" },
+        { "name": "Diploma in E-Commerce Management", "duration": "1 Year" },
+        { "name": "Diploma in Human Resource Management", "duration": "1 Year" },
+        { "name": "Diploma in Information Technology", "duration": "1 Year" },
+        { "name": "Diploma in International Business Management", "duration": "1 Year" },
+        { "name": "Diploma in Marketing Management", "duration": "1 Year" },
+        { "name": "Diploma in Operations Management", "duration": "1 Year" },
+        { "name": "Diploma in Production Management", "duration": "1 Year" },
+        { "name": "Diploma in Project Management", "duration": "1 Year" },
+        { "name": "Diploma in Retail Management", "duration": "1 Year" },
+        { "name": "Diploma in Digital Marketing Management", "duration": "1 Year" },
+        { "name": "Diploma in Health, Safety and Environment (HSE) Management", "duration": "1 Year" },
+        { "name": "Diploma in Business Analytics", "duration": "1 Year" },
+        { "name": "Diploma in Green Energy and Sustainability Management", "duration": "1 Year" },
+        { "name": "Diploma in Mathematics", "duration": "1 Year" },
+        { "name": "Diploma in Statistics", "duration": "1 Year" },
+        { "name": "Diploma in Econometrics", "duration": "1 Year" },
+        { "name": "Diploma in Computer Applications (DCA)", "duration": "1 Year" },
+        { "name": "Diploma in Civil Engineering", "duration": "3 Years" },
+        { "name": "Diploma in Electrical Engineering", "duration": "3 Years" },
+        { "name": "Diploma in Electrical and Electronics Engineering", "duration": "3 Years" },
+        { "name": "Diploma in Electronics and Communication Engineering", "duration": "3 Years" },
+        { "name": "Diploma in Mechanical Engineering", "duration": "3 Years" },
+        { "name": "Diploma in Computer Science Engineering", "duration": "3 Years" },
+        { "name": "Diploma in Information Technology", "duration": "3 Years" },
+        { "name": "Diploma in Civil Engineering (Lateral Entry)", "duration": "2 Years" },
+        { "name": "Diploma in Electrical Engineering (Lateral Entry)", "duration": "2 Years" },
+        { "name": "Diploma in Electrical and Electronics Engineering (Lateral Entry)", "duration": "2 Years" },
+        { "name": "Diploma in Electronics and Communication Engineering (Lateral Entry)", "duration": "2 Years" },
+        { "name": "Diploma in Mechanical Engineering (Lateral Entry)", "duration": "2 Years" },
+        { "name": "Diploma in Computer Science Engineering (Lateral Entry)", "duration": "2 Years" },
+        { "name": "Diploma in Information Technology (Lateral Entry)", "duration": "2 Years" },
+        { "name": "Diploma in Journalism and Mass Communication", "duration": "1 Year" },
+        { "name": "Diploma in Dietetics and Applied Nutrition", "duration": "1 Year" },
+        { "name": "Diploma in Food Processing and Preservation", "duration": "1 Year" },
+        { "name": "Diploma in Industrial Safety", "duration": "1 Year" },
+        { "name": "Diploma in Yoga", "duration": "1 Year" }
+      ]
+    },
+    {
+      "category": "PG Diploma Courses",
+      "title": "3. Post Graduate Diploma Courses",
+      "duration": "1 Year | 2 Semesters",
+      "eligibility": "Bachelor's Degree in any recognised discipline, subject to programme-specific eligibility criteria.",
+      "hasMore": true,
+      "items": [
+        { "name": "PG Diploma in Logistics and Supply Chain Management", "duration": "1 Year" },
+        { "name": "PG Diploma in Event Management", "duration": "1 Year" },
+        { "name": "PG Diploma in Fire and Safety Management", "duration": "1 Year" },
+        { "name": "PG Diploma in Hotel Management", "duration": "1 Year" },
+        { "name": "PG Diploma in Hospital Management", "duration": "1 Year" },
+        { "name": "PG Diploma in Hotel Finance Management", "duration": "1 Year" },
+        { "name": "PG Diploma in E-Commerce Management", "duration": "1 Year" },
+        { "name": "PG Diploma in Human Resource Management", "duration": "1 Year" },
+        { "name": "PG Diploma in Information Technology", "duration": "1 Year" },
+        { "name": "PG Diploma in International Business Management", "duration": "1 Year" },
+        { "name": "PG Diploma in Marketing Management", "duration": "1 Year" },
+        { "name": "PG Diploma in Operations Management", "duration": "1 Year" },
+        { "name": "PG Diploma in Production Management", "duration": "1 Year" },
+        { "name": "PG Diploma in Project Management", "duration": "1 Year" },
+        { "name": "PG Diploma in Retail Management", "duration": "1 Year" },
+        { "name": "PG Diploma in Digital Marketing Management", "duration": "1 Year" },
+        { "name": "PG Diploma in Health, Safety and Environment (HSE) Management", "duration": "1 Year" },
+        { "name": "PG Diploma in Business Analytics", "duration": "1 Year" },
+        { "name": "PG Diploma in Green Energy and Sustainability Management", "duration": "1 Year" },
+        { "name": "PG Diploma in Mathematics", "duration": "1 Year" },
+        { "name": "PG Diploma in Statistics", "duration": "1 Year" },
+        { "name": "PG Diploma in Econometrics", "duration": "1 Year" },
+        { "name": "Postgraduate Diploma in Computer Applications (PGDCA)", "duration": "1 Year" },
+        { "name": "PG Diploma in Coal and Mining Management", "duration": "1 Year" },
+        { "name": "PG Diploma in Social Work", "duration": "1 Year" },
+        { "name": "PG Diploma in Journalism and Mass Communication", "duration": "1 Year" },
+        { "name": "PG Diploma in Dietetics and Applied Nutrition", "duration": "1 Year" },
+        { "name": "PG Diploma in Food Processing and Preservation", "duration": "1 Year" },
+        { "name": "PG Diploma in Industrial Safety", "duration": "1 Year" },
+        { "name": "PG Diploma in Yoga", "duration": "1 Year" }
+      ],
+      "semesters": [
+        {
+          "title": "Semester I",
+          "topics": ["Fundamental and Advanced Core Subjects", "Professional and Management Skills", "Research Methodology", "Computer Applications / Digital Skills", "Practical / Case Study"]
+        },
+        {
+          "title": "Semester II",
+          "topics": ["Specialisation Subjects", "Advanced Professional Modules", "Industry-Based Learning", "Internship / Practical Training", "Project Work / Dissertation", "Viva-Voce"]
+        }
+      ]
+    },
+    {
+      "category": "PG Courses",
+      "title": "4. Master's Degree Programmes (PG Courses)",
+      "duration": "1 Year / 2 Years",
+      "items": [
+        { "name": "Master of Commerce (M.Com.)", "duration": "2 Years" },
+        { "name": "Master of Business Administration (MBA)", "duration": "2 Years" },
+        { "name": "Master of Hotel Management (MHM)", "duration": "2 Years" },
+        { "name": "Master of Computer Applications (MCA)", "duration": "2 Years" },
+        { "name": "Master of Science (M.Sc.)", "duration": "2 Years" },
+        { "name": "Master of Technology (M.Tech.)", "duration": "2 Years" },
+        { "name": "Master of Arts (M.A.)", "duration": "2 Years" },
+        { "name": "Master of Social Work (MSW)", "duration": "2 Years" },
+        { "name": "Master of Journalism and Mass Communication (MJMC)", "duration": "2 Years" },
+        { "name": "Master of Library and Information Science (MLIS)", "duration": "1 Year" },
+        { "name": "Master of Science (M.Sc.) in Specialised Disciplines", "duration": "2 Years" },
+        { "name": "Master of Arts / Master of Science (M.A. / M.Sc.) in Yoga", "duration": "2 Years" },
+        { "name": "Master of Science in Optometry (M.Sc. Optometry)", "duration": "2 Years" },
+        { "name": "Master of Medical Laboratory Technology (MMLT / M.Sc. MLT)", "duration": "2 Years" }
+      ]
+    },
+    {
+      "category": "UG Courses",
+      "title": "5. Undergraduate Degree Programmes (UG Courses)",
+      "duration": "1 Year / 3 Years / 4 Years",
+      "items": [
+        { "name": "Bachelor of Commerce (B.Com.) (Honours / Honours with Research, as applicable)", "duration": "3 – 4 Years" },
+        { "name": "Bachelor of Business Administration (BBA)", "duration": "3 – 4 Years" },
+        { "name": "Bachelor of Hotel Management and Catering Technology (BHMCT)", "duration": "4 Years" },
+        { "name": "Bachelor of Computer Applications (BCA)", "duration": "3 – 4 Years" },
+        { "name": "Bachelor of Science (B.Sc.)", "duration": "3 – 4 Years" },
+        { "name": "Bachelor of Technology (B.Tech.)", "duration": "4 Years" },
+        { "name": "Bachelor of Technology (B.Tech. – Lateral Entry)", "duration": "3 Years" },
+        { "name": "Bachelor of Arts (B.A.)", "duration": "3 – 4 Years" },
+        { "name": "Bachelor of Arts (Honours) (B.A. Honours)", "duration": "3 – 4 Years" },
+        { "name": "Bachelor of Social Work (BSW)", "duration": "3 – 4 Years" },
+        { "name": "Bachelor of Journalism and Mass Communication (BJMC)", "duration": "3 – 4 Years" },
+        { "name": "Bachelor of Library and Information Science (BLIS)", "duration": "1 Year" },
+        { "name": "Bachelor of Science (B.Sc. in Specialised Disciplines)", "duration": "3 – 4 Years" },
+        { "name": "Bachelor of Arts / Bachelor of Science (B.A. / B.Sc.) in Yoga", "duration": "3 – 4 Years" },
+        { "name": "Bachelor of Science in Optometry (B.Sc. Optometry, incl. internship)", "duration": "4 Years" },
+        { "name": "Bachelor of Medical Laboratory Technology (BMLT / B.Sc. MLT)", "duration": "3 – 4 Years" }
+      ]
+    },
+    {
+      "category": "PhD Courses",
+      "title": "6. Doctoral Degree Programmes (Ph.D.)",
+      "duration": "Minimum 3 Years, including coursework, subject to applicable university regulations.",
+      "description": "Doctor of Philosophy (Ph.D.) programmes are research-oriented doctoral degrees offered in various academic disciplines.",
+      "items": [
+        { "name": "A. Commerce and Finance", "duration": "Min. 3 Years" },
+        { "name": "B. Management and Business Administration", "duration": "Min. 3 Years" },
+        { "name": "C. Hospitality and Tourism", "duration": "Min. 3 Years" },
+        { "name": "D. Computer Science and Information Technology", "duration": "Min. 3 Years" },
+        { "name": "E. Science and Mathematics", "duration": "Min. 3 Years" },
+        { "name": "F. Engineering and Technology", "duration": "Min. 3 Years" },
+        { "name": "G. Arts, Humanities and Social Sciences", "duration": "Min. 3 Years" },
+        { "name": "H. Social Work and Community Development", "duration": "Min. 3 Years" },
+        { "name": "I. Journalism, Media and Communication", "duration": "Min. 3 Years" },
+        { "name": "J. Library and Information Sciences", "duration": "Min. 3 Years" },
+        { "name": "K. Healthcare and Hospital Management", "duration": "Min. 3 Years" },
+        { "name": "L. Optometry and Medical Laboratory Sciences", "duration": "Min. 3 Years" },
+        { "name": "M. Food, Nutrition and Safety", "duration": "Min. 3 Years" },
+        { "name": "N. Energy, Environment and Sustainability", "duration": "Min. 3 Years" },
+        { "name": "O. Banking, Economics and Financial Studies", "duration": "Min. 3 Years" },
+        { "name": "P. Entrepreneurship and MSME Studies", "duration": "Min. 3 Years" }
+      ],
+      "phdYears": [
+        {
+          "title": "Year 1 – Coursework and Research Foundation",
+          "topics": ["Research Methodology", "Research Ethics and Publication Ethics", "Advanced Subject-Specific Coursework", "Quantitative and Qualitative Research Methods", "Literature Review", "Research Proposal Development", "Research Progress Seminar"]
+        },
+        {
+          "title": "Year 2 – Research and Data Collection",
+          "topics": ["Research Proposal Approval", "Data Collection / Fieldwork / Laboratory Research", "Data Analysis", "Research Seminar", "Research Paper Preparation", "Progress Review"]
+        },
+        {
+          "title": "Year 3 – Thesis Development and Submission",
+          "topics": ["Advanced Data Analysis", "Research Findings and Discussion", "Research Publication", "Thesis Writing", "Pre-Submission Seminar", "Thesis Submission", "Viva-Voce Examination"]
+        }
+      ]
+    }
+  ]
+}

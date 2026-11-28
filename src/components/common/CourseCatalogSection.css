@@ -1,0 +1,119 @@
+.catalog-section {
+  background-color: var(--white);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 1.75rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.catalog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  padding-bottom: 1.15rem;
+  margin-bottom: 1.25rem;
+  border-bottom: 2px solid var(--gold-tint);
+}
+
+.catalog-header h2 {
+  font-size: 1.45rem;
+  margin-bottom: 0.3rem;
+}
+
+.catalog-meta {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--royal-blue);
+  margin-bottom: 0.35rem;
+}
+
+.catalog-desc {
+  font-size: 0.92rem;
+  color: var(--slate-text);
+  margin-bottom: 0.25rem;
+}
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+.catalog-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.72rem 0.95rem;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  background-color: var(--ivory);
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.catalog-row:hover {
+  border-color: var(--royal-blue);
+  background-color: var(--sky-tint);
+}
+
+.catalog-name {
+  font-size: 0.91rem;
+  font-weight: 600;
+  color: var(--navy-deep);
+}
+
+.catalog-more {
+  margin-top: 0.85rem;
+  margin-bottom: 0;
+  font-size: 0.88rem;
+  font-style: italic;
+  color: var(--muted-text);
+}
+
+.catalog-structure-card {
+  margin-top: 1.1rem;
+  background-color: var(--ivory);
+  border: 1px solid var(--border-light);
+  border-left: 4px solid var(--gold-primary);
+  border-radius: var(--radius-sm);
+  padding: 1.15rem 1.25rem;
+}
+
+.catalog-structure-card h3 {
+  font-size: 1.08rem;
+  margin-bottom: 0.65rem;
+}
+
+.catalog-bullets {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.42rem;
+  font-size: 0.9rem;
+}
+
+.catalog-bullets li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45rem;
+  color: var(--slate-text);
+}
+
+.catalog-bullets li svg {
+  color: var(--royal-blue);
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .catalog-header,
+  .catalog-grid {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+  .catalog-section {
+    padding: 1.25rem;
+  }
+}

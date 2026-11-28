@@ -28,7 +28,7 @@ const NAV_ITEMS = [
     dropdown: [
       { label: 'UG & PG Academic Guidance', to: '/academic-support' },
       { label: 'Bank PO Preparation', to: '/academic-support' },
-      { label: 'Teaching & Placement Support', to: '/academic-support' },
+      { label: 'Training and Placement Support', to: '/academic-support' },
       { label: 'CAT, MAT, JECA & JEEMAT', to: '/academic-support' },
     ],
   },

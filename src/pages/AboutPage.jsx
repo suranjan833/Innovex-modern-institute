@@ -118,6 +118,7 @@ export default function AboutPage() {
           <div style={{ display: 'grid', gap: '1.5rem' }}>
             <LeadershipMessageCard item={leadershipMessages.chairman} />
             <LeadershipMessageCard item={leadershipMessages.principal} />
+            <LeadershipMessageCard item={leadershipMessages.tnpHead} />
           </div>
         </div>
       </section>

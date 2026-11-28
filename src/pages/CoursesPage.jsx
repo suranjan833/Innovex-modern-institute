@@ -1,19 +1,21 @@
+import { useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { useSiteContent } from '../data/useSiteContent';
 import PageHeader from '../components/common/PageHeader';
-import CourseCard from '../components/common/CourseCard';
+import CourseCatalogSection from '../components/common/CourseCatalogSection';
 
 export default function CoursesPage() {
-  const { coursesPage, images } = useSiteContent();
+  const { coursesPage, coursesCatalog, images } = useSiteContent();
   const [searchParams, setSearchParams] = useSearchParams();
+  const [searchQuery, setSearchQuery] = useState('');
   const selectedCategory = searchParams.get('category') || 'All';
 
   const categories = ['All', ...coursesPage.categories];
 
-  const filteredCourses =
+  const visibleSections =
     selectedCategory === 'All'
-      ? coursesPage.items
-      : coursesPage.items.filter((item) => item.category === selectedCategory);
+      ? coursesCatalog.sections
+      : coursesCatalog.sections.filter((sec) => sec.category === selectedCategory);
 
   const handleSelect = (category) => {
     if (category === 'All') {
@@ -27,7 +29,7 @@ export default function CoursesPage() {
     <>
       <PageHeader
         badge="Academic Programs"
-        title="Courses & Programs"
+        title="Courses & Programmes"
         subtitle={coursesPage.subtitle}
       />
 
@@ -41,12 +43,23 @@ export default function CoursesPage() {
               />
             </div>
             <div>
-              <h2>Guided Career &amp; Degree Pathways</h2>
+              <h2>Guided Career, Degree &amp; Doctoral Pathways</h2>
               <p>
-                Choose from Certificate, Diploma, UG, PG, PG Diploma, and PhD guidance
-                designed around practical skills, structured mentorship, and verified
-                academic progression.
+                Browse our complete list of Certificate, Diploma, PG Diploma,
+                Undergraduate, Postgraduate, and Ph.D. programmes.
               </p>
+
+              <div className="form-group" style={{ marginBottom: '1rem' }}>
+                <input
+                  type="search"
+                  className="form-control"
+                  placeholder="Search any course (e.g., MBA, Analytics, Yoga, Ph.D.)..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  aria-label="Search courses"
+                />
+              </div>
+
               <div className="filter-tabs" role="tablist" aria-label="Course Categories">
                 {categories.map((cat) => (
                   <button
@@ -64,11 +77,13 @@ export default function CoursesPage() {
             </div>
           </div>
 
-          <div className="grid-3">
-            {filteredCourses.map((course) => (
-              <CourseCard key={`${course.category}-${course.name}`} course={course} />
-            ))}
-          </div>
+          {visibleSections.map((section) => (
+            <CourseCatalogSection
+              key={section.category}
+              section={section}
+              searchQuery={searchQuery}
+            />
+          ))}
         </div>
       </section>
     </>

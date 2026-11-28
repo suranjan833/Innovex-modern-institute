@@ -1,0 +1,114 @@
+/* Course catalog list, search, and module/semester structure styles */
+.catalog-section {
+  background-color: var(--white);
+  border: 1px solid var(--border-light);
+  border-top: 4px solid var(--gold-primary);
+  border-radius: var(--radius-md);
+  padding: 1.85rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.catalog-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.35rem;
+}
+
+.catalog-meta {
+  font-size: 0.9rem;
+  color: var(--muted-text);
+  margin-bottom: 0;
+}
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.catalog-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0.95rem;
+  border-radius: var(--radius-sm);
+  background-color: var(--ivory);
+  border: 1px solid var(--border-light);
+}
+
+.catalog-item-name {
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--navy-deep);
+}
+
+.catalog-item-duration {
+  font-size: 0.78rem;
+  color: var(--muted-text);
+}
+
+.catalog-apply-link {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--royal-blue);
+  white-space: nowrap;
+}
+
+.catalog-more-note {
+  margin: 0.9rem 0 0;
+  font-style: italic;
+  font-weight: 600;
+  color: var(--navy-primary);
+}
+
+.catalog-extra {
+  margin-top: 1.5rem;
+  padding-top: 1.35rem;
+  border-top: 1px solid var(--border-light);
+}
+
+.catalog-extra-box {
+  background-color: var(--ivory);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  padding: 1rem 1.15rem;
+}
+
+.catalog-extra-box h4 {
+  font-size: 0.98rem;
+  margin-bottom: 0.65rem;
+}
+
+.catalog-extra-box ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.42rem;
+  font-size: 0.87rem;
+}
+
+.catalog-extra-box li {
+  display: flex;
+  gap: 0.45rem;
+  align-items: flex-start;
+}
+
+.catalog-check {
+  color: var(--royal-blue);
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 760px) {
+  .catalog-grid {
+    grid-template-columns: 1fr;
+  }
+  .catalog-section {
+    padding: 1.25rem;
+  }
+}

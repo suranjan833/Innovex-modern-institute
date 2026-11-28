@@ -7,9 +7,13 @@ export default function LeadershipMessageCard({ item }) {
   return (
     <article className="leadership-card">
       <div className="leadership-header">
-        <div className="leadership-avatar" aria-hidden="true">
-          {item.initials}
-        </div>
+        {item.photo ? (
+          <img src={item.photo} alt={item.name} className="leadership-photo" />
+        ) : (
+          <div className="leadership-avatar" aria-hidden="true">
+            {item.initials}
+          </div>
+        )}
         <div>
           <span className="badge badge-gold">{item.heading}</span>
           <h3>{item.name}</h3>
